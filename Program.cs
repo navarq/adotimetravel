@@ -9,7 +9,7 @@ namespace adotimetravel
         {
             string connectionString = "User Id=timetraveller;Password=NH1b32thefree;Host=localhost;Database=timetravelmovies;Persist Security Info=True";
 
-            // Provide the query string with a parameter placemholder
+            // Provide the query string with a parameter place holder
 
             string queryString = "SELECT movieid, name, releasedate, mainactor from movies order by releasedate desc";
 
